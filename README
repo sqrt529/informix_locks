@@ -1,0 +1,4 @@
+Prints the usernames from users which are holding a lock in a table in an Informix DB
+
+Usage: ./informix_locks.pl -i INFORMIXSERVER -n TABLENAME -t TYPE
+	TYPE = 'X' or 'U'
